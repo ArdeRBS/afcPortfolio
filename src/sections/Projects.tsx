@@ -23,30 +23,6 @@ const portfolioProjects = [
     link: "https://aachizari.github.io/sultanMarketWeb/",
     image: sultanMarket,
   },
-  {
-    company: "Chizari",
-    year: "2025",
-    title: "Hangman in Java",
-    results: [
-      { title: "written in Java" },
-      { title: "playable in Terminal" },
-      { title: "only 10 words added" },
-    ],
-    link: "https://github.com/ArdeRBS/Hangman",
-    image: hangmanImage,
-  },
-  {
-    company: "Chizari",
-    year: "2025",
-    title: "Alarm Clock",
-    results: [
-      { title: "written in Java" },
-      { title: "viewable only in Terminal" },
-      { title: "*" },
-    ],
-    link: "https://github.com/ArdeRBS/Alarm-Clock",
-    image: alarmClockImage,
-  },
 ];
 
 export const ProjectsSection = () => {
