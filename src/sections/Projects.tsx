@@ -10,6 +10,19 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  
+  {
+    company: "Chizari",
+    year: "2025",
+    title: "Sultan Market",
+    results: [
+      { title: "#" },
+      { title: "#" },
+      { title: "#" },
+    ],
+    link: "https://aachizari.github.io/sultanMarketWeb/",
+    image: sultanMarket,
+  },
   {
     company: "Chizari",
     year: "2025",
@@ -33,18 +46,6 @@ const portfolioProjects = [
     ],
     link: "https://github.com/ArdeRBS/Alarm-Clock",
     image: alarmClockImage,
-  },
-  {
-    company: "Chizari",
-    year: "2025",
-    title: "Sultan Market",
-    results: [
-      { title: "#" },
-      { title: "#" },
-      { title: "#" },
-    ],
-    link: "https://aachizari.github.io/sultanMarketWeb/",
-    image: sultanMarket,
   },
 ];
 
